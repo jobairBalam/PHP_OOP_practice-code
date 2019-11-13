@@ -1,7 +1,7 @@
 <?php  
 function sum($num1,$num2)
 {
-	$num1 == null? $num1=30:null;
+	$num1 == null? $num1=30:null; //if($num1 == null){ $num1 = 30} else{ $num1 = null}
 	$num2 == null? $num2=50:null;
 	$z=$num1+$num2;
 	echo $z;
